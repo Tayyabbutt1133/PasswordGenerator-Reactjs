@@ -1,0 +1,43 @@
+Basically here react can be use because due to its seperate components based structure where only needed page render without loading the whole website data
+
+React's component-based architecture allows you to create modular and reusable code that can help you scale your web application as your business grows. This makes React a great choice for developing large-scale applications that require maintainability, scalability, and flexibility.
+
+
+
+core concepts in reactjs:
+
+1. Rendering elements.
+2. React components.
+3. React hooks.
+4. React props.
+5. React state and lifecycle.
+
+Addons in reactjs:
+
+1. Router
+2. state management(react do not have state management)
+3. Redux, Redux toolkit, zustand, context api.
+4. class base components.
+
+
+
+
+Hooks in React:
+Hooks are like tools that make building with React more flexible and organized, especially for those who are just starting with React development.
+
+1. UseState: useState helps keep track of information in your component, like a number that changes when you click a button. 
+
+2. UseEffect: useEffect lets you do things when your component first appears or when something in it changes. 
+
+3. useCallback: The useCallback hook in React is used to memoize functions, especially useful when passing functions as props to child components. In simple terms, it helps in optimizing performance by memoizing (remembering) a function so that it doesn't get recreated on every render unless its dependencies change. This can be beneficial in scenarios where passing a new function reference could trigger unnecessary re-renders in child components.
+
+4. useRef: useRef hook is used to create mutable object references that persist across renders. Unlike the useState hook, changes to a ref object don't cause a re-render of the component. useRef is commonly used for accessing and interacting with the DOM directly, managing focus, triggering imperative animations, and storing mutable values that don't trigger a re-render.
+
+5. useContext: The useContext hook in React is used to access the values provided by the React context. Context provides a way to share values like themes, user authentication status, or any other global state between components without the need to pass props through each level of the component tree.
+
+
+
+React Components and Props Explained!
+Rendering elements in React js?
+What is Memoization? 
+Memoization is an optimization technique for accelerating computer programs by caching the results of heavy function calls and returning them when similar inputs are encountered repeatedly. Simply, React memoization is similar to caching
